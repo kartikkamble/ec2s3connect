@@ -1,0 +1,10 @@
+Create ec2 instance and s3 bucket
+go to IAM role ---> AWS service  ---> use case (EC2)  ---> S3fullaccess ---> role name ---> create role
+select instance ---> Actions ---> security ---> modify IAM role ---> select created role 
+select instance ---> connect
+OR YOU CAN CONNECT THROUGH PUTTY ALSO
+SSH USING PUTTY
+aws s3 ls                                                  -------------> to see buckets of s3
+aws s3 cp <bucket's URI> .                                 -------------> to download content of bucket into EC2 instance
+touch <file name>.txt                                      -------------> to create empty file into EC2 instance
+aws s3 cp <file name>.txt <bucket's URI>                   -------------> to upload file to s3 bucket

@@ -1,0 +1,6 @@
+to cloned repository 
+go to repository ----> code ----> copy http url 
+go to gitbash ----> create directory ----> cd to created directory
+use command git clone <copied url>
+ls to see the content of directory
+cat <file name> ----> to see content of file
